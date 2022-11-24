@@ -131,12 +131,39 @@ function myFunction2(){
 let x=22*Math.random();
 console.log(x*Math.floor); */
 
-const strs = "dynamic coding with amit";
-
-/* let output =strs.split(" ").map(str =>{
+/* const strs = "dynamic coding with amit";
+ 
+let output =strs.split(" ").map(str =>{
     return str[0].toUpperCase()+ str.slice(1)
-}).join(" "); */
+}).join(" ");
+console.log(output)  */
+/* let vowels=["a","e","i","o","u","A","E","I","O","U"];
+let meter="How are you doing today? ";
+let hello="kjfkdhfea";
+let text=meter+hello;
 
+function result(sentence){
+    let count=0;
+    let makeArray=Array.from(sentence);
+    makeArray.forEach(function(value){
+        if(vowels.includes(value)){
+            count++;
+        }
+    })
+    return count
+}
+console.log(result(text))
+ */
 
+/* const number =[1,4,5,5,6,7,6,8,9,10,4];
+const duplicates = number.filter(function(value, index, array){
+    return array.indexOf(value) !== index;
+})
+console.log(duplicates) */
 
-
+const number =[4,45,25,36,5,25,45,74,25,36,85,95,14,74,36,25];
+const Object = {fname: "John", lname: "Doe", age: 25};
+let person="hello"
+for(let x of number){
+    console.log(number[x]);   
+};
